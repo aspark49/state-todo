@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  background-color: #282c34;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.nav-link {
+  color: #61dafb;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #3a3f4b;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+  margin: 0;
+}
+
+.home-page {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.home-page h1 {
+  color: #282c34;
+  margin-bottom: 1rem;
+}
+
+.home-page p {
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.library-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.library-link {
+  display: block;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #495057;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.library-link:hover {
+  background-color: #e9ecef;
+  border-color: #61dafb;
+  color: #282c34;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
