@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import UseStateTodoApp from './components/UseStateTodoApp';
+import UseReducerTodoApp from './components/UseReducerTodoApp';
 
 // 임시 컴포넌트들 (나중에 구현할 예정)
 const HomePage = () => (
@@ -28,7 +29,7 @@ const HomePage = () => (
 );
 
 const UseStateTodo = () => <UseStateTodoApp />;
-const UseReducerTodo = () => <div>useReducer Todo App (구현 예정)</div>;
+const UseReducerTodo = () => <UseReducerTodoApp />;
 const UseContextTodo = () => <div>useContext Todo App (구현 예정)</div>;
 const ReduxTodo = () => <div>Redux Todo App (구현 예정)</div>;
 const ZustandTodo = () => <div>Zustand Todo App (구현 예정)</div>;

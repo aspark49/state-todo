@@ -45,11 +45,11 @@
 - [x] useState 버전 완성
 
 ### 3단계: useReducer 버전 Todo App 구현
-- [ ] Todo 상태를 useReducer로 관리
-- [ ] 액션 타입 정의
-- [ ] 리듀서 함수 구현
-- [ ] Todo 컴포넌트를 useReducer로 리팩토링
-- [ ] useReducer 버전 완성
+- [x] Todo 상태를 useReducer로 관리
+- [x] 액션 타입 정의
+- [x] 리듀서 함수 구현
+- [x] Todo 컴포넌트를 useReducer로 리팩토링
+- [x] useReducer 버전 완성
 
 ### 4단계: useContext 버전 Todo App 구현
 - [ ] TodoContext 생성
