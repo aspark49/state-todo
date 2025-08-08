@@ -35,14 +35,14 @@
 - [x] React Router 설치 및 라우팅 구조 설정
 
 ### 2단계: useState 버전 Todo App 구현
-- [ ] Todo 타입 정의
-- [ ] Todo 컴포넌트 생성
-- [ ] TodoList 컴포넌트 생성
-- [ ] Todo 추가 기능 구현
-- [ ] Todo 체크/언체크 기능 구현
-- [ ] Todo 삭제 기능 구현
-- [ ] localStorage 연동
-- [ ] useState 버전 완성
+- [x] Todo 타입 정의
+- [x] Todo 컴포넌트 생성
+- [x] TodoList 컴포넌트 생성
+- [x] Todo 추가 기능 구현
+- [x] Todo 체크/언체크 기능 구현
+- [x] Todo 삭제 기능 구현
+- [x] localStorage 연동
+- [x] useState 버전 완성
 
 ### 3단계: useReducer 버전 Todo App 구현
 - [ ] Todo 상태를 useReducer로 관리
@@ -72,19 +72,13 @@
 - [ ] Todo 컴포넌트를 Zustand로 구현
 - [ ] Zustand 버전 완성
 
-### 7단계: 라이브러리 선택 UI 및 라우팅 구현
-- [ ] 라이브러리 선택 페이지 구현
-- [ ] 각 버전별 Todo App 라우트 설정
-- [ ] 네비게이션 컴포넌트 구현
-- [ ] 라우팅 기반 앱 전환 기능 완성
-
-### 8단계: UI/UX 개선
+### 7단계: UI/UX 개선
 - [ ] 공통 스타일링 적용
 - [ ] 각 버전별 구분을 위한 UI 개선
 - [ ] 반응형 디자인 적용
 - [ ] 사용자 경험 최적화
 
-### 9단계: 테스트 및 최적화
+### 8단계: 테스트 및 최적화
 - [ ] 각 상태관리 방식별 성능 테스트
 - [ ] 코드 최적화
 - [ ] 최종 검증 및 버그 수정
