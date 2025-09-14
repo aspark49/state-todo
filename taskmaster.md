@@ -52,11 +52,11 @@
 - [x] useReducer 버전 완성
 
 ### 4단계: useContext 버전 Todo App 구현
-- [ ] TodoContext 생성
-- [ ] TodoProvider 구현
-- [ ] useContext를 사용한 전역 상태 관리
-- [ ] 컴포넌트에서 Context 사용
-- [ ] useContext 버전 완성
+- [x] TodoContext 생성
+- [x] TodoProvider 구현
+- [x] useContext를 사용한 전역 상태 관리
+- [x] 컴포넌트에서 Context 사용
+- [x] useContext 버전 완성
 
 ### 5단계: Redux 버전 Todo App 구현
 - [ ] Redux Toolkit 설치 및 설정

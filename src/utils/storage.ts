@@ -18,11 +18,7 @@ export const loadTodosFromStorage = (): Todo[] => {
 export const addTodoToStorage = (todo: Todo): void => {
   try {
     const existingTodos = loadTodosFromStorage();
-    const newTodo = {
-      ...todo,
-      createdAt: new Date()
-    };
-    const updatedTodos = [...existingTodos, newTodo];
+    const updatedTodos = [...existingTodos, todo];
     localStorage.setItem(STORAGE_KEY, JSON.stringify(updatedTodos));
   } catch (error) {
     console.error('Failed to add todo to localStorage:', error);

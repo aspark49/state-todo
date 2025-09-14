@@ -4,7 +4,7 @@ import TodoList from './TodoList';
 import TodoForm from './TodoForm';
 import { createTodo } from '../utils/helpers';
 
-const UseReducerTodoApp: React.FC = () => {
+const UseContextTodoApp: React.FC = () => {
   const { todos, addTodo, updateTodo, deleteTodo, isLoading } = useGlobalTodos();
 
   const handleAddTodo = (text: string) => {
@@ -30,12 +30,12 @@ const UseReducerTodoApp: React.FC = () => {
   }
 
   return (
-    <div className="use-reducer-todo-app">
-      <h2>useReducer Todo App</h2>
+    <div className="todo-app">
+      <h2>useContext 버전 Todo App</h2>
       <TodoForm onAdd={handleAddTodo} />
       <TodoList todos={todos} onToggle={handleToggleTodo} onDelete={handleDeleteTodo} />
     </div>
   );
 };
 
-export default UseReducerTodoApp;
+export default UseContextTodoApp;

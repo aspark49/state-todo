@@ -1,6 +1,6 @@
 import type { TodoState, TodoAction } from '../types/todo';
 import { TODO_ACTIONS } from '../types/todo';
-import { loadTodosFromStorage, addTodoToStorage, updateTodoInStorage, deleteTodoFromStorage } from './storage';
+import { addTodoToStorage, updateTodoInStorage, deleteTodoFromStorage } from './storage';
 
 export const initialState: TodoState = {
   todos: [],
@@ -14,7 +14,7 @@ export const todoReducer = (state: TodoState, action: TodoAction): TodoState => 
       addTodoToStorage(action.payload);
       return {
         ...state,
-        todos: loadTodosFromStorage()
+        todos: [...state.todos, action.payload]
       };
     }
     case TODO_ACTIONS.TOGGLE_TODO: {
@@ -27,14 +27,14 @@ export const todoReducer = (state: TodoState, action: TodoAction): TodoState => 
       }
       return {
         ...state,
-        todos: loadTodosFromStorage()
+        todos: updatedTodos
       };
     }
     case TODO_ACTIONS.DELETE_TODO: {
       deleteTodoFromStorage(action.payload);
       return {
         ...state,
-        todos: loadTodosFromStorage()
+        todos: state.todos.filter(todo => todo.id !== action.payload)
       };
     }
     case TODO_ACTIONS.SET_TODOS: {
