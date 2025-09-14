@@ -9,6 +9,7 @@ interface TodoListProps {
 }
 
 const TodoList: React.FC<TodoListProps> = ({ todos, onToggle, onDelete }) => {
+  console.log('todos', todos);
   if (todos.length === 0) {
     return (
       <div className="todo-list-empty">

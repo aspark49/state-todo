@@ -67,10 +67,10 @@
 - [ ] Redux 버전 완성
 
 ### 6단계: Zustand 버전 Todo App 구현
-- [ ] Zustand 설치
-- [ ] Todo 스토어 생성
-- [ ] Todo 컴포넌트를 Zustand로 구현
-- [ ] Zustand 버전 완성
+- [x] Zustand 설치
+- [x] Todo 스토어 생성
+- [x] Todo 컴포넌트를 Zustand로 구현
+- [x] Zustand 버전 완성
 
 ### 7단계: UI/UX 개선
 - [ ] 공통 스타일링 적용
