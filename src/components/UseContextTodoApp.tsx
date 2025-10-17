@@ -30,8 +30,8 @@ const UseContextTodoApp: React.FC = () => {
   }
 
   return (
-    <div className="todo-app">
-      <h2>useContext 버전 Todo App</h2>
+    <div className="todo-app-container use-context-todo-app">
+      <h2 className="todo-app-title">useContext Todo App</h2>
       <TodoForm onAdd={handleAddTodo} />
       <TodoList todos={todos} onToggle={handleToggleTodo} onDelete={handleDeleteTodo} />
     </div>

@@ -37,8 +37,8 @@ const UseStateTodoApp: React.FC = () => {
   };
 
   return (
-    <div className="use-state-todo-app">
-      <h2>useState Todo App</h2>
+    <div className="todo-app-container use-state-todo-app">
+      <h2 className="todo-app-title">useState Todo App</h2>
       <TodoForm onAdd={addTodo} />
       <TodoList todos={todos} onToggle={toggleTodo} onDelete={deleteTodo} />
     </div>

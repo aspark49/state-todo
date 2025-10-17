@@ -30,8 +30,8 @@ const UseReducerTodoApp: React.FC = () => {
   }
 
   return (
-    <div className="use-reducer-todo-app">
-      <h2>useReducer Todo App</h2>
+    <div className="todo-app-container use-reducer-todo-app">
+      <h2 className="todo-app-title">useReducer Todo App</h2>
       <TodoForm onAdd={handleAddTodo} />
       <TodoList todos={todos} onToggle={handleToggleTodo} onDelete={handleDeleteTodo} />
     </div>

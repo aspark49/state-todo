@@ -12,8 +12,8 @@ const ZustandTodoApp: React.FC = () => {
   }, [loadTodos]);
 
   return (
-    <div className="zustand-todo-app">
-      <h2>Zustand Todo App</h2>
+    <div className="todo-app-container zustand-todo-app">
+      <h2 className="todo-app-title">Zustand Todo App</h2>
       <TodoForm onAdd={addTodo} />
       <TodoList todos={todos} onToggle={toggleTodo} onDelete={deleteTodo} />
     </div>

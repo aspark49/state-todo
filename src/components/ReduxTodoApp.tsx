@@ -22,8 +22,8 @@ const ReduxTodoApp: React.FC = () => {
   };
 
   return (
-    <div className="redux-todo-app">
-      <h2>Redux Todo App</h2>
+    <div className="todo-app-container redux-todo-app">
+      <h2 className="todo-app-title">Redux Todo App</h2>
       <TodoForm onAdd={handleAddTodo} />
       <TodoList todos={todos} onToggle={handleToggleTodo} onDelete={handleDeleteTodo} />
     </div>
