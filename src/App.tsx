@@ -3,6 +3,7 @@ import './App.css';
 import UseStateTodoApp from './components/UseStateTodoApp';
 import UseReducerTodoApp from './components/UseReducerTodoApp';
 import UseContextTodoApp from './components/UseContextTodoApp';
+import ReduxTodoApp from './components/ReduxTodoApp';
 import ZustandTodoApp from './components/ZustandTodoApp';
 import { GlobalTodoProvider } from './contexts/GlobalTodoContext';
 
@@ -34,7 +35,7 @@ const HomePage = () => (
 const UseStateTodo = () => <UseStateTodoApp />;
 const UseReducerTodo = () => <UseReducerTodoApp />;
 const UseContextTodo = () => <UseContextTodoApp />;
-const ReduxTodo = () => <div>Redux Todo App (구현 예정)</div>;
+const ReduxTodo = () => <ReduxTodoApp />;
 const ZustandTodo = () => <ZustandTodoApp />;
 
 function App() {

@@ -59,12 +59,12 @@
 - [x] useContext 버전 완성
 
 ### 5단계: Redux 버전 Todo App 구현
-- [ ] Redux Toolkit 설치 및 설정
-- [ ] Todo 슬라이스 생성
-- [ ] Store 설정
-- [ ] Redux DevTools 설정
-- [ ] Todo 컴포넌트를 Redux로 구현
-- [ ] Redux 버전 완성
+- [x] Redux Toolkit 설치 및 설정
+- [x] Todo 슬라이스 생성
+- [x] Store 설정
+- [x] Redux DevTools 설정
+- [x] Todo 컴포넌트를 Redux로 구현
+- [x] Redux 버전 완성
 
 ### 6단계: Zustand 버전 Todo App 구현
 - [x] Zustand 설치
