@@ -8,6 +8,6 @@
 | redux | 전역 상태관리 | 전역 상태관리 |
 | zustand | 전역 상태관리 | 전역 상태관리 |
 ### 정확한 표현:
-useState, useReducer: 상태관리 함수
-useContext, useSelector: 상태 구독 함수
-Context Provider, Redux Store, Zustand Store: 실제 상태관리 엔진
+- useState, useReducer: 상태관리 함수
+- useContext, useSelector: 상태 구독 함수
+- Context Provider, Redux Store, Zustand Store: 실제 상태관리 엔진
